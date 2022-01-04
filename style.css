@@ -1,99 +1,97 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 body {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #f8f8f8;
-    background-color: #080808;
-    font-family: 'Open Sans', sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f8f8f8;
+  background-color: #080808;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
-    font-family: serif;
-    font-size: 2.5rem;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 600;
-    margin-bottom: 0.75rem;
+  font-family: serif;
+  font-size: 2.5rem;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
 }
 
 .email__input {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
 .icon {
-    position: absolute;
-    top: 60%;
-    right: 1.25rem;
-    transform: translateY(-50%);
-    font-size: 1.5rem;
-    transition: all 2s ease-in-out;
+  position: absolute;
+  top: 60%;
+  right: 1.25rem;
+  transform: translateY(-50%);
+  font-size: 1.5rem;
+  transition: all 2s ease-in-out;
 }
 
 .fa-exclamation-circle {
-    color: #e4202d;
+  color: #e4202d;
 }
 
 .fa-check-circle {
-    color: #27c569;
+  color: #27c569;
 }
 
 .icon i.far fa-envelope {
-    color: #f8f8f8;
+  color: #f8f8f8;
 }
 
 .email {
-    width: 100%;
-    padding: 1.2rem;
-    font-size: 1.25rem;
-    font-weight: 300;
-    background-color: transparent;
-    outline: none;
-    border: 1px solid #f8f8f8;
-    border-radius: 5px;
-    color: inherit;
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.25rem;
+  font-weight: 300;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #f8f8f8;
+  border-radius: 5px;
+  color: inherit;
 }
 
 .email:hover,
 .email:focus,
 .email:active {
-    border: 0;
-    padding: 10px;
-    border-bottom: 1px solid #f8f8f8;
-    border-radius: 0;
-    color: #f8f8f8;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #f8f8f8;
+  border-radius: 0;
+  color: #f8f8f8;
 }
 
-
 .message {
-    display: flex;
-    flex-direction: column;
-    align-self: start;
-    margin-top: 0.75rem;
-    font-size: 1.5rem;
-    font-weight: 600;
-    height: 1.5rem;
-    transition: all 2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-self: start;
+  margin-top: 0.75rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  height: 1.5rem;
+  transition: all 2s ease-in-out;
 }
 
 .message.invalid {
-    color: #e4202d;
+  color: #e4202d;
 }
 
 .message.valid {
-    color: #27c569;
+  color: #27c569;
 }
