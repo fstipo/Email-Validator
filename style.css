@@ -3,7 +3,7 @@
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 
  - SPACING SYSTEM (px)
-2 / 4 / 8 / 11 / 16 / 24 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+2 / 4 / 8 / 12 / 16 / 24 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 
 */
 
@@ -14,7 +14,10 @@
 }
 
 html {
+  /* default: 10px */
+  /* 10 / 16 * 100 = 62.5 */
   font-size: 16px;
+  /* font-size: 62.5%; */
 }
 
 body {
@@ -103,4 +106,23 @@ h1 {
 
 .message.valid {
   color: #27c569;
+}
+
+@media (max-width: 59em) {
+  html {
+    /* 8rem/16px = 0.5 */
+    font-size: 75%;
+  }
+}
+
+@media (max-width: 44em) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 34em) {
+  html {
+    font-size: 45%;
+  }
 }
